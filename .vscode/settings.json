@@ -1,0 +1,9 @@
+{
+    "python.formatting.provider": "ruff",
+    "python.analysis.typeCheckingMode": "basic",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": "explicit"
+    },
+    "makefile.configureOnOpen": false
+}

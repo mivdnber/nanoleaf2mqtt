@@ -1,0 +1,15 @@
+[lint]
+select = [
+    "E",  # pycodestyle errors
+    "F",  # pyflakes errors
+    "W",  # pycodestyle warnings
+    "B",  # bugbear
+    "I",  # isort
+    "UP", # upgrade
+]
+ignore = [
+    "E501",  # line too long
+]
+
+[lint.isort]
+known-first-party = ["nanoleaf2mqtt"]
