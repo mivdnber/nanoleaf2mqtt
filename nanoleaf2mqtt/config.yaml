@@ -1,6 +1,6 @@
 name: "Nanoleaf2MQTT"
 description: "A bridge between Nanoleaf devices and MQTT."
-version: "0.1.5"
+version: "0.1.6"
 slug: "nanoleaf2mqtt"
 init: false
 arch:
@@ -10,8 +10,6 @@ arch:
   - armv7
   - i386
 host_dbus: true
-host_network: false
-hassio_api: true
-homeassistant_api: true
+host_network: true
 services:
   - mqtt:need
