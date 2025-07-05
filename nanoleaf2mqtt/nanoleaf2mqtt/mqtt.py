@@ -129,6 +129,9 @@ class MqttClient:
         reconnect_interval = 1
         while not self._disconnect_event.is_set():
             try:
+                logger.info(
+                    f"Connecting to MQTT broker at {self.broker}:{self.port} as user {self.username}..."
+                )
                 async with Client(
                     hostname=self.broker,
                     port=self.port,
