@@ -12,4 +12,4 @@ arch:
 host_dbus: true
 host_network: true
 services:
-  - mqtt
+  - mqtt:need
