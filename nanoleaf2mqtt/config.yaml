@@ -1,6 +1,6 @@
 name: "Nanoleaf2MQTT"
 description: "A bridge between Nanoleaf devices and MQTT."
-version: "0.1.11"
+version: "0.1.12"
 slug: "nanoleaf2mqtt"
 init: false
 arch:
