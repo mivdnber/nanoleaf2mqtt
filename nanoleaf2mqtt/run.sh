@@ -1,4 +1,4 @@
-#!/usr/bin/env bashio
+#!/usr/bin/with-contenv bashio
 
 cd /app
 MQTT_HOST=$(bashio::services mqtt "host")
