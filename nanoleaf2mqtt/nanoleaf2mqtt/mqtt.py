@@ -254,7 +254,6 @@ class MqttClient:
             "command_topic": f"{self.node_id}/{device_id}/set",
             "state_topic": f"{self.node_id}/{device_id}/state",
             "brightness": True,
-            "color_mode": True,
             "supported_color_modes": ["color_temp", "hs"],
             "color_temp_kelvin": True,
             "min_kelvin": 1200,
