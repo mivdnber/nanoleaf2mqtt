@@ -7,6 +7,7 @@ from collections.abc import AsyncIterator
 from aiostream.stream import merge
 
 from nanoleaf2mqtt.config import (
+    DATABASE_PATH,
     LOG_LEVEL,
     MQTT_HOST,
     MQTT_PASSWORD,
@@ -112,7 +113,7 @@ async def handle_device_present(
 async def main() -> None:
     logger.info("Starting main")
     # Initialize the database
-    db = Database()
+    db = Database(db_path=DATABASE_PATH)
     sessions = DeviceSessions()
 
     with NanoleafDiscovery() as discovery:
