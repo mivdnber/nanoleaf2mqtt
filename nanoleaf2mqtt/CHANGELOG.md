@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.14 - 2025-12-06
+
+- Fix compatibility with Home Assistant 2025.12 by removing `color_mode` from the MQTT device discovery payload.
+
 ## 0.1.13 - 2025-10-19
 
 ⚠️ **This release will require you to pair your devices again. This won't happen again in later releases, sorry!** ⚠️
